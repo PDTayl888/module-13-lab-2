@@ -8,6 +8,7 @@ const PORT = process.env.PORT || 3000;
 connectDB();
 
 app.use(express.json());
+const bookRoutes = require('./routes/bookRoutes');
 
 app.use('/api/books', bookRoutes);
 
