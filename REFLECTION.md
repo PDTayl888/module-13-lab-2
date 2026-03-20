@@ -19,4 +19,3 @@ be some outlier circumstances but generally it is not needed.
 
 _________________________________________________________________________________________________________
 
-Best Practices for DELETE Responses
