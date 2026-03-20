@@ -18,3 +18,5 @@ You should send tan appropriate code such as 200. Sending back the deleted data 
 be some outlier circumstances but generally it is not needed. 
 
 _________________________________________________________________________________________________________
+
+Best Practices for DELETE Responses
