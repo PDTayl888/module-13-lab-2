@@ -38,7 +38,7 @@ router.put("/:id", async (req, res) => {
       runValidators: true,
     });
     if (!updatedBook) return res.status(404).json({message: 'BOOK NOT FOUND'});
-    res.json(400).json({message: error.message});
+    res.json(updatedBook);
   } catch (error) {
     res.status(400).json({message: error.message});
   }
